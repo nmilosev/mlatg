@@ -1,0 +1,40 @@
+<footer class="page-footer darken-1 green">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Šta je ovo?</h5>
+                <p class="grey-text text-lighten-4">
+                    Na ovoj stranici može se testirati sistem za automatsko ocenjivanje testova
+                    (ATG - automatic test grader) koji se bazira na konvolutivnoj neuronskoj mreži
+                    slično radu: <strong><a class="white-text" href="https://arxiv.org/abs/1408.5882">
+                    Convolutional Neural Networks for Sentence Classification</a></strong>. Dodatno se koriste
+                    <strong><a class="white-text" href="https://fasttext.cc/">FastText vektori</a> </strong>
+                    za bolju reprezentaciju reči srpskog jezika.
+                    Projekat je implementiran u programskom jeziku Python i koristi PyTorch biblioteku
+                    za mašinsko učenje.
+                    <br>
+                    Ovaj projekat je nastao kao eksperiment iz predmeta Mašinsko učenje (ML).
+                </p>
+            </div>
+            <div class="col l6 s12">
+                <h5 class="white-text">Trenutno opterećenje</h5>
+                <ul>
+                    <li>CPU: <strong><span id="cpuusage"/></strong></li>
+                    <li>RAM: <strong><span id="ramusage"/></strong></li>
+                    <li>GPU RAM: <strong><span id="gpuusage"/></strong></li>
+                    <li>Korišćeni model: <strong><span id="usedmodel"/></strong></li>
+                    <li>Python 3.6, PyTorch 0.4.0, CUDA 9.1, torchtext 0.3.0, spacy 2.0.0, fasttext-vectors</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright darken-2">
+        <div class="container">
+            (c) 2018 <a class="white-text" href="mailto:nmilosev@dmi.rs">Nemanja Milošević</a>
+            Departman za matematiku i informatiku - Prirodno-matematički fakultet - Univerzitet u Novom Sadu
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
